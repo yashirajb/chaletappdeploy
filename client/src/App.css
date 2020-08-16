@@ -1,16 +1,13 @@
-.App {
+
+ .App {
   text-align: center;
-}
+ }
+/* }
 
 .App-logo {
+  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -35,4 +32,118 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .header{
+
+
+} */
+
+
+.navbar{
+
+    background-color: #333;
+    height: 50px;
+}
+
+.chaletImage{
+
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+
+}
+
+/* .addChocolate{
+
+} */
+
+
+/* .listChocolate{
+
+} */
+
+.footer{
+  background-color: #333;
+  height: 100px;
+
+}
+
+.submitSuggestion{
+
+  background-color: #333;
+  height: 50px;
+  margin-top: 2em
+
+}
+
+
+/* .editChocolate{
+  background-color: #333;
+  height: 100px;
+
+} */
+
+.deleteChocolate{
+  background-color: #333;
+  height: 50px;
+
+}
+
+.newRating{
+ text-align: center;
+ background-color: #90723C;
+
+}
+
+
+.newPrice{
+
+  text-align: center;
+  background-color: #90723C;
+
+}
+
+.newDescription{
+
+  text-align: center;
+  background-color: #90723C;
+
+}
+
+.newTitle{
+
+  text-align: center;
+  background-color: #90723C;
+
+}
+
+.newTitleInput{
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.newDescriptionInput{
+
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+.newPriceInput{
+
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+.newRatingInput{
+
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 2em
 }
